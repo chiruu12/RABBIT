@@ -1,17 +1,3 @@
-
-Conversation opened. 1 read message.
-
-Skip to content
-Using BITS Pilani University Mail with screen readers
-
-1 of 10,375
-FINALITO
-Inbox
-
-Swayam Agrawal
-1:11 AM (3 minutes ago)
-to me
-
 import os
 import requests
 import streamlit as st
@@ -131,5 +117,3 @@ if input_text:
         st.session_state.messages.append({"role": "assistant", "content": response})
     else:
         st.error(f"Failed to send data. Status code: {response.status_code}")
-
-Success!Thanks a lot.Thanks, I'll check it out.
