@@ -4,8 +4,8 @@ import streamlit as st
 from dotenv import load_dotenv
 
 load_dotenv()
-api_host = os.environ.get("PATHWAY_REST_CONNECTOR_HOST", "127.0.0.1")
-api_port = int(os.environ.get("PATHWAY_REST_CONNECTOR_PORT", 8080))
+api_host = os.environ.get("HOST", "127.0.0.1")
+api_port = int(os.environ.get("PORT", 8080))
 
 # Set page config with a relevant background image
 st.set_page_config(page_title='🐰 RABBIT - Resourceful Academic Book-Based Interactive Tutor', layout='centered', initial_sidebar_state='auto')
