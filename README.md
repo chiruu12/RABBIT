@@ -4,12 +4,19 @@ Welcome to RABBIT, your personal academic assistant! This interactive tool lever
 
 This repo is mostly a modification of [Dropbox-ai-chat](https://github.com/pathway-labs/dropbox-ai-chat/tree/main)
 
-#Demo
+# Demo
+
+
+https://github.com/chiruu12/RABBIT/assets/103719146/1164a8e7-25e9-4a5f-9fbb-aaa1cdf7dc06
+
+
 when you ask a question within the context of books 
-<img src="assets/run1.gif" alt="Image" width="600"/>
+
+<img src="assets/run1.png" alt="Image" width="600"/>
 
 when you ask a query or question out of context
-<img src="assets/run2.gif" alt="Image" width="600"/>
+
+<img src="assets/run2.png" alt="Image" width="600"/>
 
 
 
